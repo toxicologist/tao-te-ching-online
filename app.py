@@ -4,7 +4,7 @@ from random import choice
 from flask_sqlalchemy import SQLAlchemy
 
 cows = ['apt', 'bud-frogs', 'bunny', 'cheese', 'cock', 'default', 'duck', 'elephant', 'elephant-in-snake',
-        'flaming-sheep', 'fox', 'gnu', 'hellokitty', 'koala', 'milk', 'moofasa', 'moose', 'pony-smaller',
+        'flaming-sheep', 'gnu', 'hellokitty', 'koala', 'milk', 'moofasa', 'moose', 'pony-smaller',
         'sheep', 'skeleton', 'snowman', 'stegosaurus', 'stimpy', 'suse', 'three-eyes', 'turtle', 'tux',
         'unipony-smaller', 'www']
 
