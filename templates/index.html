@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fortune</title>
+    <link rel="stylesheet" href="/static/main.css" type="text/css">
+</head>
+<style>
+
+    {% set bgnum = range(4) | random %}
+    body{
+        background-image: url('/static/{{ bgnum }}.gif');
+    }
+
+
+</style>
+<body>
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <pre class="pissText">{{ fortune }}</pre>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

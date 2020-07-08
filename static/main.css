@@ -1,0 +1,61 @@
+ /* ========================= */
+   @keyframes rainbold {
+   0% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   14% { color: orange; text-shadow: -1px 0px yellow, -2px 0px green, -3px 0px blue, -4px 0px indigo, -5px 0px violet, -6px 0px red; }
+   28% { color: yellow; text-shadow: -1px 0px green, -2px 0px blue, -3px 0px indigo, -4px 0px violet, -5px 0px red, -6px 0px orange; }
+   43% { color: green; text-shadow: -1px 0px blue, -2px 0px indigo, -3px 0px violet, -4px 0px red, -5px 0px orange, -6px 0px yellow; }
+   57% { color: blue; text-shadow: -1px 0px indigo, -2px 0px violet, -3px 0px red, -4px 0px orange, -5px 0px yellow, -6px 0px green; }
+   71% { color: indigo; text-shadow: -1px 0px violet, -2px 0px red, -3px 0px orange, -4px 0px yellow, -5px 0px green, -6px 0px blue; }
+   85% { color: violet; text-shadow: -1px 0px red, -2px 0px orange, -3px 0px yellow, -4px 0px green, -5px 0px blue, -6px 0px indigo; }
+   100% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   }
+   @-moz-keyframes rainbold {
+   0% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   14% { color: orange; text-shadow: -1px 0px yellow, -2px 0px green, -3px 0px blue, -4px 0px indigo, -5px 0px violet, -6px 0px red; }
+   28% { color: yellow; text-shadow: -1px 0px green, -2px 0px blue, -3px 0px indigo, -4px 0px violet, -5px 0px red, -6px 0px orange; }
+   43% { color: green; text-shadow: -1px 0px blue, -2px 0px indigo, -3px 0px violet, -4px 0px red, -5px 0px orange, -6px 0px yellow; }
+   57% { color: blue; text-shadow: -1px 0px indigo, -2px 0px violet, -3px 0px red, -4px 0px orange, -5px 0px yellow, -6px 0px green; }
+   71% { color: indigo; text-shadow: -1px 0px violet, -2px 0px red, -3px 0px orange, -4px 0px yellow, -5px 0px green, -6px 0px blue; }
+   85% { color: violet; text-shadow: -1px 0px red, -2px 0px orange, -3px 0px yellow, -4px 0px green, -5px 0px blue, -6px 0px indigo; }
+   100% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   }
+   @-webkit-keyframes rainbold {
+   0% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   14% { color: orange; text-shadow: -1px 0px yellow, -2px 0px green, -3px 0px blue, -4px 0px indigo, -5px 0px violet, -6px 0px red; }
+   28% { color: yellow; text-shadow: -1px 0px green, -2px 0px blue, -3px 0px indigo, -4px 0px violet, -5px 0px red, -6px 0px orange; }
+   43% { color: green; text-shadow: -1px 0px blue, -2px 0px indigo, -3px 0px violet, -4px 0px red, -5px 0px orange, -6px 0px yellow; }
+   57% { color: blue; text-shadow: -1px 0px indigo, -2px 0px violet, -3px 0px red, -4px 0px orange, -5px 0px yellow, -6px 0px green; }
+   71% { color: indigo; text-shadow: -1px 0px violet, -2px 0px red, -3px 0px orange, -4px 0px yellow, -5px 0px green, -6px 0px blue; }
+   85% { color: violet; text-shadow: -1px 0px red, -2px 0px orange, -3px 0px yellow, -4px 0px green, -5px 0px blue, -6px 0px indigo; }
+   100% { color: red; text-shadow: -1px 0px orange, -2px 0px yellow, -3px 0px green, -4px 0px blue, -5px 0px indigo, -6px 0px violet; }
+   }
+   @keyframes piss1 { from { color: rgb(255, 0, 0); } 16.6% { color: rgb(255, 0, 255); } 33.3% { color: rgb(0, 0, 255); } 50% { color: rgb(0, 255, 255); } 66.6% { color: rgb(0, 255, 0); } 83.3% { color: rgb(255, 255, 0); } to { color: rgb(255, 0, 0); } }
+   @keyframes piss2 { 0% { background-position-x:0%; } 100% { background-position-x:100%; } }
+   @keyframes piss3 { 0% { background-position: 0% 50%} 50%  { background-position:100% 50%} 100% { background-position:  0% 50%} }
+   @keyframes piss4 { to { background-position: 200% center; } }
+   textarea.pissText {font-family: monospace; font-size: 130%;}
+   .pissText{ background: repeating-linear-gradient(-45deg,red,red 20px,blue 20px,blue 40px); background-size:56px 56px; background-position-x:0%; animation: piss2 20s infinite linear forwards; background: linear-gradient(270deg, #ff0000, #ffa600, #fff500, #06ff00, #00c9ff, #2300ff, #ff00fa, #ff0000); background-size: 1600% 1600%; animation: piss3 30s ease infinite;  background: linear-gradient(to right, #ff0000, #ffa600, #fff500, #06ff00, #00c9ff, #2300ff, #ff00fa, #ff0000); background-size: 200% auto; color: #000; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: piss4 2s linear infinite; }
+   span.pissText3 { color:#fff; -webkit-animation:glow3 1s ease-in-out infinite alternate; -moz-animation:glow3 1s ease-in-out infinite alternate; animation:glow3 1s ease-in-out infinite alternate; }
+   @-webkit-keyframes glow3{ 0%{ text-shadow:0 0 .5em #fff,0 0 .6em #fff; } to{ text-shadow:0 0 1.1em #0f0,0 0 1.2em #0f0; } }
+   /* ========================= */
+ .outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+   margin-left: auto;
+   margin-right: auto;
+   width: fit-content;
+}
+body{background-color:black; text-align: left; font-family: monospace, arial; font-size: 170%; font-weight: bold;}
+    pre{margin: auto; width:fit-content; height: fit-content;}
