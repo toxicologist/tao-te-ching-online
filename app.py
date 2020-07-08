@@ -15,7 +15,7 @@ def run(command):
 
 def get_fortune(fortunes):
     cow = choice(cows)
-    return run('fortune %s -e | %s -f %s' % (fortunes, choice(['cowsay', 'cowthink']), cow))
+    return run('/usr/games/fortune %s -e | /usr/games/%s -f %s' % (fortunes, choice(['cowsay', 'cowthink']), cow))
 
 
 app = Flask(__name__)
